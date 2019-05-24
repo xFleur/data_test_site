@@ -1,21 +1,39 @@
-
 $grey: #C6C1BF;
 $grey_dark: #77706B;
 
-body{
+body {
 
 }
-.artikel{
+
+#top {
+  margin-top: 50px;
+  margin-bottom: 20px;
+
+}
+
+.img-fix {
+  position: relative;
+  width: 200px;
+  height: 200px;
+}
+
+amp-img.contain img {
+  object-fit: contain;
+}
+
+
+.artikel {
   width: 200px;
   display: inline-block;
   color: grey;
 }
-.Fabrique_logo{
+
+.Fabrique_logo {
   color: $grey_dark;
   font-size: 30px;
-  margin-bottom: 190px;
 }
-h1{
+
+h1 {
   //color: yellow;
 }
 
